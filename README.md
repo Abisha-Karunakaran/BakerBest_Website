@@ -44,40 +44,40 @@ BakerBest is a full-stack web application for a bakery based in Jaffna, Sri Lank
 ```
 BakerBest/
 │
-├── index.php               # Home page
-├── about.php                # About us page
-├── menu.php                 # Menu listing + cart logic
-├── order.php                 # Cart summary + checkout flow
-├── payment.php                # Server-side order processing
-├── sucess.php                 # Order confirmation page
-├── view_order_history.php      # AJAX partial - order history table
-├── contact.php                  # Contact form + message history
-├── gallery.php                   # Image gallery
+├── index.php                      # Home page
+├── about.php                      # About us page
+├── menu.php                       # Menu listing + cart logic
+├── order.php                      # Cart summary + checkout flow
+├── payment.php                    # Server-side order processing
+├── sucess.php                     # Order confirmation page
+├── view_order_history.php         # AJAX partial - order history table
+├── contact.php                    # Contact form + message history
+├── gallery.php                    # Image gallery
 ├── login.php                      # User login
-├── signup.php                      # User registration
-├── logout.php                       # Session destroy
-├── header.php                        # Shared navbar (included in every page)
-├── footer.php                         # Shared footer (included in every page)
+├── signup.php                     # User registration
+├── logout.php                     # Session destroy
+├── header.php                     # Shared navbar (included in every page)
+├── footer.php                     # Shared footer (included in every page)
 │
 ├── Backend/
-│   ├── db.php                       # Database connection
-│   ├── save_order.php                # AJAX endpoint to save customer orders
+│   ├── db.php                     # Database connection
+│   ├── save_order.php             # AJAX endpoint to save customer orders
 │   │
-│   ├── admin_login.php                # Admin login
-│   ├── admin_logout.php                # Admin session destroy
-│   ├── admin_header.php                  # Shared admin panel navbar/sidebar
-│   ├── admin_dashboard.php                # Admin dashboard overview
-│   ├── category_management.php              # Manage menu categories (CRUD)
-│   ├── menu_management.php                    # Manage menu items (CRUD, pricing, discounts, images)
-│   ├── order_management.php                     # View & update customer order status
-│   ├── customer_management.php                    # View registered customers
-│   ├── gallery_management.php                      # Upload/manage gallery images
-│   ├── admin_messages.php                            # View & reply to contact form messages
+│   ├── admin_login.php            # Admin login
+│   ├── admin_logout.php           # Admin session destroy
+│   ├── admin_header.php           # Shared admin panel navbar/sidebar
+│   ├── admin_dashboard.php        # Admin dashboard overview
+│   ├── category_management.php    # Manage menu categories (CRUD)
+│   ├── menu_management.php        # Manage menu items (CRUD, pricing, discounts, images)
+│   ├── order_management.php       # View & update customer order status
+│   ├── customer_management.php    # View registered customers
+│   ├── gallery_management.php     # Upload/manage gallery images
+│   ├── admin_messages.php         # View & reply to contact form messages
 │   │
-│   ├── assets/                     # Backend/admin panel assets
-│   └── uploads/gallery/              # Uploaded gallery images (served to gallery.php)
+│   ├── assets/                    # Backend/admin panel assets
+│   └── uploads/gallery/           # Uploaded gallery images (served to gallery.php)
 │
-└── assets/                     # Images, icons, background used across customer-facing pages
+└── assets/                        # Images, icons, background used across customer-facing pages
 ```
 
 ---
